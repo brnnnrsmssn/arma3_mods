@@ -1,0 +1,34 @@
+Version 1.2.5 (7.25.19)
+Fixed:		'Error Zero divisor' script error with A3 v1.94 when remote controling units or when STUI_assignedTeamIndex is called on a non-local unit that is not in your group.
+Added:		CBA Settings for toggling STHUD/STGI unconscious fade functionality while using ACE medical.
+Added:		CBA Settings for enabling/disabling Group Indicator functionality.
+
+---------------------------------------------------------------------
+Version 1.2.4 (3.7.19)
+Fixed:    No entry 'bin/config.bin/RscDisplayMission/controls/STUI_Canvas.widthRailWay' warning message.
+Added:	  STHUD and STGI will now fade out when player becomes unconscious while using ACE medical (Can be disabled by setting STHud_UnconsciousFadeEnabled or STGI_UnconsciousFadeEnabled to false)
+
+---------------------------------------------------------------------
+Version 1.2.3 (6.3.18)
+Fixed:		Fixed memory leak/crashing on Prei Kmaoch Luong (and possibly other terrains)
+
+Improved:	Tweaked STHUD to better support existing color-blinded modes
+Improved:	Made nametags groupname code more robust
+Improved:	Improved occlusion/visibility checking
+
+---------------------------------------------------------------------
+Version 1.2.2 (3.17.2017)
+Added:		Experimental color blind mode to CBA Settings, thanks to Kingsley (https://gitlab.com/shacktac-public/general/issues/13)
+
+Fixed:		Crash with 64-bit on smaller terrains
+Fixed:		Default font wasn't "PuristaSemiBold"
+
+---------------------------------------------------------------------
+Version 1.2.1 (3.16.2017)
+
+Fixed:		Infinite loading screen on 64-bit (https://gitlab.com/shacktac-public/general/issues/23)
+Fixed:		RscStaminaBar config error when using ACE (https://gitlab.com/shacktac-public/general/issues/20)
+Fixed:		A script error when joining a group after the player wasn't in a group previously
+
+Improved:	Added customization of STHUD through CBA Settings (https://gitlab.com/shacktac-public/general/issues/9)
+Improved:	Moved role numbers to the left of the unit names

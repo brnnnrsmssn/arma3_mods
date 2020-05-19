@@ -1,0 +1,10 @@
+name = "KA Weapons Pack NEW - Version 3.4";
+picture = "KA_pic.paa";
+hidePicture = "false";
+hideName = "false";
+actionName = "Website";
+action = "http://steamcommunity.com/id/307752601/";
+description = "KICKASS Weapons Pack NEW - Version 3.4";
+overview  = "KICKASS Weapons Pack NEW - Version 3.4";
+logo = "KA_logo.paa";
+logoOver = "KA_logoOver.paa";

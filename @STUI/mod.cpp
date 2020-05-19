@@ -1,0 +1,13 @@
+name = "STUI";
+picture = "@stui\addons\core\logos\st_logo_ca.paa";
+logoSmall = "@stui\addons\core\logos\st_logo_small_ca.paa";
+logo = "@stui\addons\core\logos\st_logo_small_ca.paa";
+logoOver = "@stui\addons\core\logos\st_logo_small_ca.paa";
+action = "http://dslyecxi.com/shacktac_wp/";
+actionName = "Website";
+tooltip = "ShackTac UI";
+tooltipOwned = "ShackTac User Interface";
+dlcColor[] = {1, 0.76, 0, 1};
+overview = "<a href='https://gitlab.com/shacktac-public/general/wikis/home'>ShackTac User Interface (STUI)</a>, contains enhancements to the UI for Arma 3.<br /><br />This modset includes the following elements:<br />* ShackTac Fireteam HUD<br />* ShackTac Group Indicators<br />* ShackTac Name Tags<br />* ShackTac Stamina Bar</a><br />* ShackTac Map Autobrightness</a><br />*";
+hideName = 0;
+hidePicture = 0;
